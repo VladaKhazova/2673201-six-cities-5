@@ -8,7 +8,6 @@ import {createCommentContainer} from './modules/comment/comment.container.js';
 import {createRentOfferContainer} from './rent-offer/rent-offer.container.js';
 import {createAuthContainer} from './modules/auth/auth.container.js';
 
-
 async function bootstrap() {
   const appContainer = Container.merge(
     createRestApplicationContainer(),
